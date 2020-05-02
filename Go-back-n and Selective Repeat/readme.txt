@@ -1,0 +1,9 @@
+For GBN,
+
+First run the receiver file by selecting the protocol you want to run it with and the input file using the below syntax
+    Syntax:  python receiver.py gbn.txt 8558
+
+Then run the sender file by selecting the same protocol you are running the receiver with and the input file using the below syntax
+    Syntax:  python sender.py gbn.txt 8558 20
+
+Similarly for SR, run the same commands, instead of gbn.txt put sr.txt
